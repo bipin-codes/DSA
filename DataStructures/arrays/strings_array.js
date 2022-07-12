@@ -8,7 +8,7 @@ function reverse(str) {
 
   let lp = 0,
     up = str.length;
-  const strArr = str.split("");
+  const strArr = str.split(""); // O(n) | O(n * k) if delimeter length
 
   // O(n) -> Complexity
   while (lp < up) {
