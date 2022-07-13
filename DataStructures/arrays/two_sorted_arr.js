@@ -16,17 +16,13 @@ function mergeSortedArray(a1, a2) {
       sp2++;
     }
   }
-  if (sp1 < a1.length) {
-    while (sp1 != a1.length) {
-      mergedArr.push(a1[sp1]);
-      sp1++;
-    }
+  while (sp1 != a1.length) {
+    mergedArr.push(a1[sp1]);
+    sp1++;
   }
-  if (sp2 < a2.length) {
-    while (sp2 != a2.length) {
-      mergedArr.push(a2[sp2]);
-      sp2++;
-    }
+  while (sp2 != a2.length) {
+    mergedArr.push(a2[sp2]);
+    sp2++;
   }
   return mergedArr;
 }
