@@ -6,4 +6,4 @@
 
 ### Problems in the practice_problems are solved on Leetcode
 
-- [[Profile](https://leetcode.com/bipincodes/)]
+- [[LeetCode](https://leetcode.com/bipincodes/)]
