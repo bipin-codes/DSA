@@ -1,6 +1,6 @@
 // INTERVIEW STRING QUESTION SHOULD BE TREATED AS ARRAY QUESTIONS
 
-// FUNCTION to rever a string
+// FUNCTION to reverse a string
 
 function reverse(str) {
   if (!str || str.length < 2 || typeof str != "string")
