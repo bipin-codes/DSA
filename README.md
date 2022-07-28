@@ -7,3 +7,7 @@
 ### Problems in the practice_problems are solved on Leetcode
 
 - [[LeetCode](https://leetcode.com/bipincodes/)]
+
+### JS REVISION
+
+-Just to revise JS concepts
