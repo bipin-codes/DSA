@@ -1,3 +1,9 @@
+//1 -> Two Sum. (done)
+//2 -> Maximum Sub Array(done)
+//3 -> Move Zeroes. (done)
+//4 -> Contains Duplicate. (done)
+//5 -> Rotate Array. (done)
+
 // *** PROBLEM 1 ***
 var twoSum = function (nums, target) {
   const result = {};
@@ -30,6 +36,17 @@ var subArray = (nums) => {
   }
   return max;
 };
+//O(n) O(1)
+function optimized(nums) {
+  let max = nums[0];
+  let tillNow = 0;
+  for (let val of nums) {
+    tillNow = Math.max(tillNow + val, val);
+    max = Math.max(tillNow, max);
+  }
+
+  return max;
+}
 
 // *** PROBLEM 3 ***
 
